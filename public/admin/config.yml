@@ -11,40 +11,43 @@ public_folder: "/assets"
 
 # These lines should *not* be indented
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Content"
+    name: "content"
     files:
-      - label: "About"
-        name: "about"
-        file: "src/content/about.json"
+      - label: "Data"
+        name: "data"
+        file: "src/content/data.json"
         fields:
-          - {label: Name, name: name, widget: string, required: true}
-          - {label: Avatar, name: avatar, widget: image}
-          - {label: Title, name: title, widget: string}
-          - {label: About, name: about, widget: string}
-          - {label: Link, name: link, widget: string}
+          - label: "About"
+            name: "about"
+            widget: object
+            summary: '{{fields.name}}'
+            collapsed: true
+            fields:
+              - {label: Name, name: name, widget: string, required: true}
+              - {label: Avatar, name: avatar, widget: image, required: false}
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: About, name: about, widget: string, required: false}
+              - {label: Link, name: link, widget: string, required: false}
 
-      - label: "Experience"
-        name: "experience"
-        file: "src/content/experience.json"
-        widget: list
-        fields: &card_fields
-          - {label: Side, name: side, widget: string, required: true}
-          - {label: Title, name: title, widget: string, required: true}
-          - {label: Desc, name: desc, widget: string}
-          - {label: Stack, name: stack, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Link, name: link, widget: string}
-          - {label: Source, name: source, widget: string}
+          - label: "Experience"
+            name: "experience"
+            widget: list
+            fields: &card_fields
+              - {label: Side, name: side, widget: string, required: true}
+              - {label: Title, name: title, widget: string, required: true}
+              - {label: Desc, name: desc, widget: string, required: false}
+              - {label: Stack, name: stack, widget: string, required: false}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Link, name: link, widget: string, required: false}
+              - {label: Source, name: source, widget: string, required: false}
 
-      - label: "Projects"
-        name: "projects"
-        file: "src/content/projects.json"
-        widget: list
-        fields: *card_fields
+          - label: "Projects"
+            name: "projects"
+            widget: list
+            fields: *card_fields
 
-      - label: "Links"
-        name: "links"
-        file: "src/content/links.json"
-        widget: list
-        fields: *card_fields
+          - label: "Links"
+            name: "links"
+            widget: list
+            fields: *card_fields
