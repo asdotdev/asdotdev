@@ -11,15 +11,40 @@ public_folder: "/assets"
 
 # These lines should *not* be indented
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "src/content/about.json"
+        fields:
+          - {label: Name, name: name, widget: string, required: true}
+          - {label: Avatar, name: avatar, widget: image}
+          - {label: Title, name: title, widget: string}
+          - {label: About, name: about, widget: string}
+          - {label: Link, name: link, widget: string}
+
+      - label: "Experience"
+        name: "experience"
+        file: "src/content/experience.json"
+        widget: list
+        fields: &card_fields
+          - {label: Side, name: side, widget: string, required: true}
+          - {label: Title, name: title, widget: string, required: true}
+          - {label: Desc, name: desc, widget: string}
+          - {label: Stack, name: stack, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Link, name: link, widget: string}
+          - {label: Source, name: source, widget: string}
+
+      - label: "Projects"
+        name: "projects"
+        file: "src/content/projects.json"
+        widget: list
+        fields: *card_fields
+
+      - label: "Links"
+        name: "links"
+        file: "src/content/links.json"
+        widget: list
+        fields: *card_fields
