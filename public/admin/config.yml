@@ -1,13 +1,11 @@
 # when using the default proxy server port
-local_backend: true
-
 backend:
   name: git-gateway
   branch: master
 
 # These lines should *not* be indented
 media_folder: "src/assets"
-public_folder: "/assets"
+public_folder: "src/assets"
 
 # These lines should *not* be indented
 collections:
@@ -18,14 +16,12 @@ collections:
         name: "data"
         file: "src/content/data.json"
         fields:
-          - label: "About"
-            name: "about"
+          - label: "Profile"
+            name: "profile"
             widget: object
-            summary: '{{fields.name}}'
-            collapsed: true
             fields:
               - {label: Name, name: name, widget: string, required: true}
-              - {label: Avatar, name: avatar, widget: image, required: false}
+              - {label: Avatar, name: avatar, widget: image, required: false, allow_multiple: false, choose_url: false, media_library: {config: {track: "*.webp"}}}
               - {label: Title, name: title, widget: string, required: false}
               - {label: About, name: about, widget: string, required: false}
               - {label: Link, name: link, widget: string, required: false}
@@ -33,21 +29,23 @@ collections:
           - label: "Experience"
             name: "experience"
             widget: list
+            add_to_top: true
             fields: &card_fields
               - {label: Side, name: side, widget: string, required: true}
               - {label: Title, name: title, widget: string, required: true}
               - {label: Desc, name: desc, widget: string, required: false}
               - {label: Stack, name: stack, widget: string, required: false}
-              - {label: Image, name: image, widget: image, required: false}
+              - {label: Image, name: image, widget: image, required: false, allow_multiple: false, choose_url: false, media_library: {config: {track: "*.webp"}}}
               - {label: Link, name: link, widget: string, required: false}
-              - {label: Source, name: source, widget: string, required: false}
 
           - label: "Projects"
             name: "projects"
             widget: list
+            add_to_top: true
             fields: *card_fields
 
           - label: "Links"
             name: "links"
             widget: list
+            add_to_top: true
             fields: *card_fields

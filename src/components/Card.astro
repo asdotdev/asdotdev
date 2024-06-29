@@ -1,61 +1,86 @@
 ---
+export interface CardData {
+    side: string;
+    title: string;
+    desc?: string;
+    stack?: string;
+    image?: string;
+    link?: string;
+    linkText?: string;
+}
 interface Props {
-	title: string;
-	body: string;
-	href: string;
+    data: CardData;
 }
 
-const { href, title, body } = Astro.props;
+const {
+    data: { side, title, desc, stack, image, link, linkText },
+} = Astro.props;
 ---
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
-</li>
+<div class="grid">
+    <div>
+        <span>
+            {side}
+        </span>
+    </div>
+    <div>
+        {image && <img class="image" src={image} alt={title} />}
+        {
+            link ? (
+                <a href={link} target="_blank" class="title">
+                    <h4>{title}</h4>
+                    {link && (
+                        <svg
+                            viewBox="0 0 14 14"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="linkSVG"
+                        >
+                            <path d="M10.9639 8.92676L10.957 3.59473C10.957 3.42155 10.9023 3.28027 10.793 3.1709C10.6882 3.05697 10.5446 3 10.3623 3H5.03027C4.8571 3 4.7181 3.05697 4.61328 3.1709C4.50846 3.28027 4.45605 3.41016 4.45605 3.56055C4.45605 3.70638 4.51074 3.83398 4.62012 3.94336C4.73405 4.05273 4.86393 4.10742 5.00977 4.10742H6.58887L9.2959 4.01172L8.26367 4.89355L3.1709 10C3.05697 10.1094 3 10.237 3 10.3828C3 10.5332 3.05697 10.6676 3.1709 10.7861C3.28939 10.9046 3.42383 10.9639 3.57422 10.9639C3.72461 10.9639 3.85449 10.9092 3.96387 10.7998L9.06348 5.69336L9.95898 4.66113L9.84277 7.34766V8.9541C9.84277 9.09994 9.89746 9.22982 10.0068 9.34375C10.1208 9.45768 10.2529 9.51465 10.4033 9.51465C10.5492 9.51465 10.679 9.45996 10.793 9.35059C10.9069 9.23665 10.9639 9.09538 10.9639 8.92676Z" />
+                        </svg>
+                    )}
+                </a>
+            ) : (
+                <h4 class="title">{title}</h4>
+            )
+        }
+        {desc && <p class="desc">{desc}</p>}
+        {stack && <span class="stack">{stack}</span>}
+    </div>
+</div>
 <style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 1px;
-		background-color: #23262d;
-		background-image: none;
-		background-size: 400%;
-		border-radius: 7px;
-		background-position: 100%;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: calc(1.5rem - 1px);
-		border-radius: 8px;
-		color: white;
-		background-color: #23262d;
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent-light));
-	}
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 0.7rem;
+        font-weight: 100;
+        gap: 1rem;
+    }
+    .grid > div:nth-child(1) {
+        grid-column: 1;
+        color: var(--sub-text);
+    }
+    .grid > div:nth-child(2) {
+        display: grid;
+        grid-column: span 3;
+        color: var(--sub-text);
+        gap: 0.25rem;
+    }
+    .image {
+        width: 1.5rem;
+        aspect-ratio: 1;
+    }
+    .title {
+        display: flex;
+        color: var(--text);
+        fill: var(--text);
+        width: max-content;
+    }
+    .linkSVG {
+        width: 0.7rem;
+        aspect-ratio: 1;
+        margin-left: 0.25rem;
+    }
+    .stack {
+        color: var(--alt-text);
+    }
 </style>

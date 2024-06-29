@@ -15,7 +15,9 @@ const { title } = Astro.props;
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        <script
+            is:inline
+            src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         ></script>
     </head>
     <body>
@@ -39,19 +41,31 @@ const { title } = Astro.props;
         </script>
     </body>
 </html>
+
 <style is:global>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
     :root {
-        --accent: 136, 58, 234;
-        --accent-light: 224, 204, 250;
-        --accent-dark: 49, 10, 101;
-        --accent-gradient: linear-gradient(
-            45deg,
-            rgb(var(--accent)),
-            rgb(var(--accent-light)) 30%,
-            white 60%
-        );
+        --max-width: 600px;
+        --accent: #f5996f;
+        /* --accent: #d04400; */
+    }
+    html.dark {
+        --text: #ffffff;
+        --sub-text: #bcbcbc;
+        --alt-text: #959595;
+        --background: #050505;
+    }
+    html.light {
+        --text: #000000;
+        --sub-text: #3c3c3c;
+        --alt-text: #595959;
+        --background: #ffffff;
     }
     html {
+        background: var(--background);
+        color: var(--text);
+        font-size: 20px;
+        line-height: 1.6;
         font-family:
             "Inter",
             -apple-system,
@@ -65,17 +79,20 @@ const { title } = Astro.props;
             Droid Sans,
             Helvetica Neue,
             sans-serif;
-        background: #05070e;
     }
-    code {
-        font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
+    * {
+        padding: 0;
+        margin: 0;
+        font-weight: 300;
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: var(--accent) !important;
+        fill: var(--accent) !important;
     }
 </style>
