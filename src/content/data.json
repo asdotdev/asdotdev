@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Amitabh Sahu",
-    "avatar": "src/assets/profilepic.webp",
+    "avatar": "assets/profilepic.webp",
     "title": "Web Developer",
     "about": "Hi, I'm Amitabh Sahu. I enjoy creating end-to-end products, with a focus on developing intuitive experiences that continuously improve based on metrics."
   },
