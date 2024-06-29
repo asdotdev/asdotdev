@@ -1,69 +1,69 @@
 {
-    "profile": {
-        "name": "Amitabh Sahu",
-        "avatar": "src/assets/profilepic.webp",
-        "title": "Web Developer",
-        "about": "Hi, I'm Amitabh Sahu. I enjoy creating end-to-end products, with a focus on developing intuitive experiences that continuously improve based on metrics."
+  "profile": {
+    "name": "Amitabh Sahu",
+    "avatar": "src/assets/profilepic.webp",
+    "title": "Web Developer",
+    "about": "Hi, I'm Amitabh Sahu. I enjoy creating end-to-end products, with a focus on developing intuitive experiences that continuously improve based on metrics."
+  },
+  "experience": [
+    {
+      "link": "https://www.socialboat.live",
+      "side": "Mar 22 - Oct 23",
+      "title": "Frontend Developer - SocialBoat",
+      "desc": "Collaborated with fellow developers to create a user-friendly web app and a hybrid mobile app, integrated GPT, and implemented progress tracking.",
+      "stack": "TypeScript • NextJS • React Native • Tailwind • Firebase"
+    }
+  ],
+  "projects": [
+    {
+      "link": "https://www.npmjs.com/package/@asdotdev/react-list",
+      "side": "May 2024",
+      "title": "React List - React UI Package",
+      "desc": "Build and maintain a React package of a scrollable interface to render infinite lists with type support, including horizontal, inverted, and section options.",
+      "stack": "TypeScript • ReactJS • Rollup • CSS"
     },
-    "experience": [
-        {
-            "link": "https://www.socialboat.live",
-            "side": "Mar 22 - Oct 23",
-            "title": "Frontend Developer - SocialBoat",
-            "desc": "Collaborated with fellow developers to create a user-friendly web app and a hybrid mobile app, integrated GPT, and implemented progress tracking.",
-            "stack": "TypeScript • NextJS • React Native • Tailwind • Firebase"
-        }
-    ],
-    "projects": [
-        {
-            "link": "https://www.npmjs.com/package/@asdotdev/react-list",
-            "side": "May 2024",
-            "title": "React List - React UI Package",
-            "desc": "Build and maintain a React package of a scrollable interface to render infinite lists with type support, including horizontal, inverted, and section options.",
-            "stack": "TypeScript • ReactJS • Rollup • CSS"
-        },
-        {
-            "link": "https://edittube.vercel.app",
-            "side": "Nov 2023",
-            "title": "EditTube - Streamline YouTube Workflow",
-            "desc": "Teamed up with developers for a hackathon to create an app that solves YouTube's problem of downloading videos for upload by providing a view and upload option within the platform.",
-            "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
-        },
-        {
-            "link": "https://paper-note.web.app",
-            "side": "Oct 2021",
-            "title": "Paper Note - Note Taking App",
-            "desc": "Developed a simple note-taking app as a progressive web app to enable users to take notes efficiently both online and offline.",
-            "stack": "ReactJS • Firebase • MaterialUI"
-        },
-        {
-            "link": "https://socialize-project.netlify.app",
-            "side": "Sept 2021",
-            "title": "Socialize - Social Media App",
-            "desc": "Create a social media application with basic CRUD functionality using REST API.",
-            "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
-        }
-    ],
-    "links": [
-        {
-            "side": "GitHub",
-            "title": "@asdotdev",
-            "link": "https://github.com/asdotdev"
-        },
-        {
-            "side": "X",
-            "title": "@asdotdev",
-            "link": "https://x.com/asdotdev"
-        },
-        {
-            "side": "LinkedIn",
-            "title": "@amitabh-sahu",
-            "link": "https://www.linkedin.com/in/amitabh-sahu"
-        },
-        {
-            "side": "Gmail",
-            "title": "@amitabh.sahu0008",
-            "link": "mailto:amitabh.sahu0008@gmail.com?subject=Let%E2%80%99s%20Connect%20%F0%9F%A4%9D&body=Hi%20Amitabh%2C%0A%0A%2A%2Amessage%20goes%20here%2A%2A"
-        }
-    ]
+    {
+      "link": "https://edittube.vercel.app",
+      "side": "Nov 2023",
+      "title": "EditTube - Streamline YouTube Workflow",
+      "desc": "Teamed up with developers for a hackathon to create an app that solves YouTube's problem of downloading videos for upload by providing a view and upload option within the platform.",
+      "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
+    },
+    {
+      "link": "https://paper-note.web.app",
+      "side": "Oct 2021",
+      "title": "Paper Note - Note Taking App",
+      "desc": "Developed a simple note-taking app as a progressive web app to enable users to take notes efficiently both online and offline.",
+      "stack": "ReactJS • Firebase • MaterialUI"
+    },
+    {
+      "link": "https://socialize-project.netlify.app",
+      "side": "Sept 2021",
+      "title": "Socialize - Social Media App",
+      "desc": "Create a social media application with basic CRUD functionality using REST API.",
+      "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
+    }
+  ],
+  "links": [
+    {
+      "side": "GitHub",
+      "title": "@asdotdev",
+      "link": "https://github.com/asdotdev"
+    },
+    {
+      "side": "X",
+      "title": "@asdotdev",
+      "link": "https://x.com/asdotdev"
+    },
+    {
+      "side": "LinkedIn",
+      "title": "@amitabh-sahu",
+      "link": "https://www.linkedin.com/in/amitabh-sahu"
+    },
+    {
+      "side": "Gmail",
+      "title": "@amitabh.sahu0008",
+      "link": "mailto:amitabh.sahu0008@gmail.com?subject=Let%E2%80%99s%20Connect%20%F0%9F%A4%9D&body=Hi%20Amitabh%2C%0A%0A%2A%2Amessage%20goes%20here%2A%2A"
+    }
+  ]
 }
