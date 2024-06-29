@@ -4,8 +4,8 @@ backend:
   branch: master
 
 # These lines should *not* be indented
-media_folder: "src/assets"
-public_folder: "src/assets"
+media_folder: "public/assets"
+public_folder: "assets"
 
 # These lines should *not* be indented
 collections:
@@ -24,7 +24,6 @@ collections:
               - {label: Avatar, name: avatar, widget: image, required: false, allow_multiple: false, choose_url: false, media_library: {config: {track: "*.webp"}}}
               - {label: Title, name: title, widget: string, required: false}
               - {label: About, name: about, widget: string, required: false}
-              - {label: Link, name: link, widget: string, required: false}
 
           - label: "Experience"
             name: "experience"
