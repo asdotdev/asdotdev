@@ -12,9 +12,9 @@ import { experience, projects, links } from "@content/data.json";
     <Header />
     <main>
         <About />
-        <CardWrapper items={experience} />
-        <CardWrapper items={projects} />
-        <CardWrapper items={links} />
+        <CardWrapper heading="Experience" items={experience} />
+        <CardWrapper heading="Projects" items={projects} />
+        <CardWrapper heading="Links" items={links} />
     </main>
     <Intro />
 </Layout>

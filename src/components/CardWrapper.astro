@@ -2,14 +2,15 @@
 import Card, { type CardData } from "@components/Card.astro";
 
 interface Props {
+    heading: string;
     items: Array<CardData>;
 }
 
-const { items } = Astro.props;
+const { heading, items } = Astro.props;
 ---
 
 <section>
-    <h3 class="heading">Projects</h3>
+    <h3 class="heading">{heading}</h3>
     <ul role="list" class="card">
         {
             items.map((item) => (
