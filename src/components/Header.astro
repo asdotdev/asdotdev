@@ -83,17 +83,22 @@
         ) {
             theme = localStorage.getItem("theme");
         } else {
-            window.localStorage.setItem("theme", theme);
+            localStorage.setItem("theme", theme);
         }
 
-        document.documentElement.classList = theme;
+        document.documentElement.classList.add(theme);
     })();
 
-    const handleToggleClick = () => {
+    const handleToggleClick = (e) => {
         const isDark = document.documentElement.classList.contains("dark");
 
         localStorage.setItem("theme", isDark ? "light" : "dark");
         document.documentElement.classList = isDark ? "light" : "dark";
+
+        isDark &&
+            setTimeout(() => {
+                document.documentElement.classList.toggle("showThemeModal");
+            }, 250);
     };
 
     document

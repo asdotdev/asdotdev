@@ -1,9 +1,10 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Intro from "@components/Intro.astro";
 import Header from "@components/Header.astro";
 import About from "@components/About.astro";
 import CardWrapper from "@components/CardWrapper.astro";
+import ThemeModal from "@components/ThemeModal.astro";
+import Intro from "@components/Intro.astro";
 
 import { experience, projects, links } from "@content/data.json";
 ---
@@ -16,6 +17,7 @@ import { experience, projects, links } from "@content/data.json";
         <CardWrapper heading="Projects" items={projects} />
         <CardWrapper heading="Links" items={links} />
     </main>
+    <ThemeModal />
     <Intro />
 </Layout>
 
@@ -27,5 +29,9 @@ import { experience, projects, links } from "@content/data.json";
         padding: 4rem 1rem;
         display: grid;
         gap: 2.5rem;
+    }
+    :global(.loading),
+    :global(.showThemeModal) {
+        overflow: hidden;
     }
 </style>

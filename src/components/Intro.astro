@@ -2,8 +2,13 @@
 
 ---
 
-<div class="intro">
-    <svg id="svgId" viewBox="0 0 650 200" xmlns="http://www.w3.org/2000/svg">
+<div class="intro" id="intro">
+    <svg
+        id="svgId"
+        viewBox="0 0 650 200"
+        fill="#FFFFFF"
+        xmlns="http://www.w3.org/2000/svg"
+    >
         <path
             data-sn={1}
             d="M34.3438 58V37.4375H16.3438V58H6.8125V11.9375H16.3438V29.5H34.3438V11.9375H43.9062V58H34.3438Z"
@@ -151,62 +156,79 @@
         position: fixed;
         inset: 0;
         z-index: 100;
-        background-color: var(--background);
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         pointer-events: none;
-        animation: slideDown 1s linear forwards;
-        -webkit-animation: slideDown 1s linear forwards;
+        background-color: var(--background);
+        animation: appearOut 1s linear forwards;
+        -webkit-animation: appearOut 1s linear forwards;
+        -moz-animation: appearOut 1s linear forwards;
         animation-delay: calc(var(--animation-time) * 1.1);
     }
 
     .intro > svg {
-        max-width: var(--max-width);
+        width: var(--max-width);
         fill: var(--accent);
         padding: 1rem;
     }
 
     .intro > svg > path {
-        animation: slideUp calc(var(--animation-time) / 37)
+        animation: appearIn calc(var(--animation-time) / 37)
             cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-        -webkit-animation: slideUp calc(var(--animation-time) / 37)
+        -webkit-animation: appearIn calc(var(--animation-time) / 37)
+            cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        -moz-animation: appearIn calc(var(--animation-time) / 37)
             cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
         transform: translateY(100%);
+        -webkit-animation: translateY(100%);
+        -moz-animation: translateY(100%);
         transform-origin: center;
         opacity: 0;
     }
 
-    @keyframes slideUp {
+    @keyframes appearIn {
         20% {
             opacity: 1;
         }
         40% {
             transform: translateY(-5%);
+            -webkit-animation: translateY(-5%);
+            -moz-animation: translateY(-5%);
             opacity: 1;
         }
         70% {
             transform: translateY(3%);
+            -webkit-animation: translateY(3%);
+            -moz-animation: translateY(3%);
             opacity: 1;
         }
         100% {
             transform: translate(0);
+            -webkit-animation: translate(0);
+            -moz-animation: translate(0);
             opacity: 1;
         }
     }
 
-    @keyframes slideDown {
+    @keyframes appearOut {
         0% {
             transform: translate(0, 0%);
+            -webkit-animation: translate(0, 0%);
+            -moz-animation: translate(0, 0%);
             opacity: 1;
         }
         90% {
             transform: translate(-100%, 0);
+            -webkit-animation: translate(-100%, 0);
+            -moz-animation: translate(-100%, 0);
             opacity: 1;
         }
         100% {
             transform: translate(-100%, 0);
+            -webkit-animation: translate(-100%, 0);
+            -moz-animation: translate(-100%, 0);
             opacity: 0;
         }
     }
@@ -359,3 +381,14 @@
         animation-delay: calc((var(--animation-time) / 37) * 37);
     }
 </style>
+
+<script is:inline>
+    document
+        .getElementById("intro")
+        .addEventListener("animationend", function (e) {
+            if (e.target === this) {
+                document.documentElement.classList.toggle("loading");
+                e.target.style["display"] = "none";
+            }
+        });
+</script>
