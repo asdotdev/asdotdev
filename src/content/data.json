@@ -1,6 +1,7 @@
 {
     "profile": {
         "name": "Amitabh Sahu",
+        "resume": "assets/amitabhsahu-resume.pdf",
         "avatar": "assets/profilepic.webp",
         "title": "Web Developer",
         "about": "Hi, I'm Amitabh Sahu. I enjoy creating end-to-end products, focusing on developing intuitive experiences that continuously improve based on metrics."
@@ -33,7 +34,7 @@
             "link": "https://paper-note.web.app",
             "side": "Oct 2021",
             "title": "Paper Note - Note Taking App",
-            "desc": "Developed a simple note-taking app as a progressive web app to enable users to take notes efficiently both online and offline.",
+            "desc": "Created a user-friendly progressive web app for easy note-taking, accessible both online and offline.",
             "stack": "ReactJS • Firebase • MaterialUI"
         },
         {

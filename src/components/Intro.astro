@@ -383,6 +383,8 @@
 </style>
 
 <script is:inline>
+    (() => document.documentElement.classList.toggle("loading"))();
+
     document
         .getElementById("intro")
         .addEventListener("animationend", function (e) {
