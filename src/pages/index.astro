@@ -1,6 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
+import NavBar from "@components/NavBar.astro";
 import About from "@components/About.astro";
 import CardWrapper from "@components/CardWrapper.astro";
 import ThemeModal from "@components/ThemeModal.astro";
@@ -10,7 +10,7 @@ import { experience, projects, links } from "@content/data.json";
 ---
 
 <Layout title="Amitabh Sahu - Developer">
-    <Header />
+    <NavBar />
     <main>
         <About />
         <CardWrapper heading="Experience" items={experience} />
