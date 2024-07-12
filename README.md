@@ -1,14 +1,16 @@
-# Hi, I'm Amitabh Sahu, developer from India.
+![Hi, I'm Amitabh Sahu, developer from India.](https://github.com/user-attachments/assets/dc8dda71-bef5-4c5e-96c4-9f8f0333139f)
 
-## About
+# About
 
 I am a software developer focusing on **web and hybrid mobile development**. I am exploring **open-source development** and prefers **remote work**. I create products using **JavaScript** and **TypeScript**, with a focus on developing intuitive experiences that continuously improve based on metrics.
 
+
 Visit my static personal portfolio at [amitabhsahu.dev](https://amitabhsahu.dev/), which was built with **Astro** and **Decap-CMS**.
 
+[![as.dev](https://github.com/user-attachments/assets/e6bbb5d4-b3de-4f02-adf8-abef243c52e4)](https://amitabhsahu.dev/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b722e973-f265-45f2-a3e2-9dab9c35cac5/deploy-status)](https://app.netlify.com/sites/amitabhsahu/deploys)
 
-## Languages and Tools:
+# Languages and Tools:
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -23,8 +25,8 @@ Visit my static personal portfolio at [amitabhsahu.dev](https://amitabhsahu.dev/
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-## Connect:
+# Connect:
 
-[![Amitabh's Gmail](https://img.shields.io/badge/amitabh.sahu0008-EA4336?logo=gmail&logoColor=white)](mailto:amitabh.sahu0008@gmail.com?subject=Let%E2%80%99s%20Connect%20%F0%9F%A4%9D&body=Hi%20Amitabh%2C%0A%0A%2A%2Amessage%20goes%20here%2A%2A)
-[![Amitabh's LinkedIn Profile](https://img.shields.io/badge/@amitabh--sahu-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amitabh-sahu)
-[![Amitabh's X Profile](https://img.shields.io/badge/@asdotdev-000000?logo=x&logoColor=white)](https://x.com/asdotdev)
+[![Amitabh's Gmail](https://img.shields.io/badge/Gmail-EA4336?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amitabh.sahu0008@gmail.com?subject=Let%E2%80%99s%20Connect%20%F0%9F%A4%9D&body=Hi%20Amitabh%2C%0A%0A%2A%2Amessage%20goes%20here%2A%2A)
+[![Amitabh's LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amitabh-sahu)
+[![Amitabh's X Profile](https://img.shields.io/badge/asdotdev-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/asdotdev)
