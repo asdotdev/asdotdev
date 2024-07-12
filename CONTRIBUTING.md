@@ -1,4 +1,4 @@
-# Contributing to @asdotdev/portfolio
+# Contributing to @asdotdev/asdotdev
 
 First off, thanks for taking the time to contribute! ❤️
 
@@ -22,13 +22,13 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 ## Have a Question
 
-> If you want to ask a question, we assume that you have read the available [README](https://github.com/asdotdev/portfolio/blob/master/README.md).
+> If you want to ask a question, we assume that you have read the available [README](https://github.com/asdotdev/asdotdev/blob/master/README.md).
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/asdotdev/portfolio/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Issues](https://github.com/asdotdev/asdotdev/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
--   Open an [Issue](https://github.com/asdotdev/portfolio/issues/new).
+-   Open an [Issue](https://github.com/asdotdev/asdotdev/issues/new).
 -   Provide as much context as you can about what you're running into.
 -   Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
 
@@ -41,8 +41,8 @@ We will then take care of the issue as soon as possible.
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 -   Make sure that you are using the latest version.
--   Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [README](https://github.com/asdotdev/portfolio/blob/master/README.md)).
--   To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [issues](https://github.com/asdotdev/portfolio/issues) section.
+-   Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [README](https://github.com/asdotdev/asdotdev/blob/master/README.md)).
+-   To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [issues](https://github.com/asdotdev/asdotdev/issues) section.
 -   Collect information about the bug:
     -   Device, OS, Browser and Version
     -   Possibly your input and the output
@@ -52,31 +52,31 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
--   Open an [Issue](https://github.com/asdotdev/portfolio/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
+-   Open an [Issue](https://github.com/asdotdev/asdotdev/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
 -   Explain the behavior you would expect and the actual behavior.
 -   Please provide as much context as possible and describe the **reproduction steps** that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 -   Provide the information you collected in the previous section.
 
 ## Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for `@asdotdev/portfolio`, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+This section guides you through submitting an enhancement suggestion for `@asdotdev/asdotdev`, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
 
 ### Before Submitting an Enhancement
 
 -   Make sure that you are using the latest version.
--   Read the [README](https://github.com/asdotdev/portfolio/blob/master/README.md) carefully and find out if the functionality is already covered, maybe by an individual configuration.
--   Perform a search in the [issues](https://github.com/asdotdev/portfolio/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+-   Read the [README](https://github.com/asdotdev/asdotdev/blob/master/README.md) carefully and find out if the functionality is already covered, maybe by an individual configuration.
+-   Perform a search in the [issues](https://github.com/asdotdev/asdotdev/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 -   Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 ### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/asdotdev/portfolio/issues).
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/asdotdev/asdotdev/issues).
 
 -   Use a **clear and descriptive title** for the issue to identify the suggestion.
 -   Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
 -   **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
 -   You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to.
--   **Explain why this enhancement would be useful** to most `@asdotdev/portfolio` users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+-   **Explain why this enhancement would be useful** to most `@asdotdev/asdotdev` users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
 
 ## Setup Development Enviroment
 
@@ -101,36 +101,36 @@ Once you have the prerequisites installed, you need to prepare your development 
 
 ### Fork the Repository on GitHub
 
-1. Go to the repository on GitHub: https://github.com/asdotdev/portfolio
+1. Go to the repository on GitHub: https://github.com/asdotdev/asdotdev
 
 2. Click the "Fork" Button in the upper right-hand corner of the interface
 
-3. After the repository has been forked, you will be taken to your copy of the repository at `https://github.com/YOUR_USER_NAME/portfolio` (`YOUR_USER_NAME` would be replaced with your GitHub user name.)
+3. After the repository has been forked, you will be taken to your copy of the repository at `https://github.com/YOUR_USER_NAME/asdotdev` (`YOUR_USER_NAME` would be replaced with your GitHub user name.)
 
 ### Clone your Fork from GitHub
 
 1. Open a Terminal / Command Prompt / Shell in the directory you want to copy of the repository
 
-2. Clone your fork of portfolio, replacing `YOUR_USER_NAME` with your GitHub Username
+2. Clone your fork of asdotdev, replacing `YOUR_USER_NAME` with your GitHub Username
 
 ```
-git clone https://github.com/YOUR_USER_NAME/portfolio.git
+git clone https://github.com/YOUR_USER_NAME/asdotdev.git
 ```
 
 3. This will download the entire repository to your directory.
 
 ### Set up Syncing from Parent
 
-1. Change the directory to the new portfolio directory:
+1. Change the directory to the new asdotdev directory:
 
 ```
-cd portfolio
+cd asdotdev
 ```
 
-2. Add a remote reference to the `master` portfolio repository:
+2. Add a remote reference to the `master` asdotdev repository:
 
 ```
-git remote add upstream https://github.com/asdotdev/portfolio.git
+git remote add upstream https://github.com/asdotdev/asdotdev.git
 ```
 
 3. Ensure the configuration looks correct:
@@ -142,17 +142,17 @@ git remote -v
 4. The output should look something like below (replacing `YOUR_USER_NAME` with your GitHub username):
 
 ```
-origin    https://github.com/YOUR_USER_NAME/portfolio.git (fetch)
-origin    https://github.com/YOUR_USER_NAME/portfolio.git (push)
-upstream    https://github.com/asdotdev/portfolio.git (fetch)
-upstream    https://github.com/asdotdev/portfolio.git (push)
+origin    https://github.com/YOUR_USER_NAME/asdotdev.git (fetch)
+origin    https://github.com/YOUR_USER_NAME/asdotdev.git (push)
+upstream    https://github.com/asdotdev/asdotdev.git (fetch)
+upstream    https://github.com/asdotdev/asdotdev.git (push)
 ```
 
 > the main repository is referred to as the upstream repository. Your fork is referred to as the origin repository.
 
 ### Running Locally
 
-1. Goto inside portfolio directry in your terminal
+1. Goto inside asdotdev directry in your terminal
 
 2. Install npm dependencies with `npm ci`
 
@@ -162,23 +162,23 @@ upstream    https://github.com/asdotdev/portfolio.git (push)
 
 5. Now goto inside the react project directry where you want to use react-ist in your terminal
 
-6. Tell the application to use the global symbolic link with `npm link @asdotdev/portfolio`
+6. Tell the application to use the global symbolic link with `npm link @asdotdev/asdotdev`
 
 **Example:**
 
 ```
-cd ~/projects/portfolio
+cd ~/projects/asdotdev
 npm ci
 npm run build
 npm link
 
-cd ~/projects/portfolio-test-app
-npm link @asdotdev/portfolio
+cd ~/projects/asdotdev-test-app
+npm link @asdotdev/asdotdev
 ```
 
 > You only have to `link` once but every time you make changes to the library you have to rebuild with `npm run build`.
 >
-> Once you are done with changes you can `unlink` with `npm unlink` and `npm unlink @asdotdev/portfolio` at the respective directory.
+> Once you are done with changes you can `unlink` with `npm unlink` and `npm unlink @asdotdev/asdotdev` at the respective directory.
 
 ## Contributing to the Codebase
 
@@ -200,12 +200,12 @@ npm link @asdotdev/portfolio
     Your branch is up-to-date with 'origin/master'
     ```
 
-3.  Sync the latest changes from the portfolio upstream `master` branch to your `master` fork branch:
-    Update your copy of the portfolio upstream repository:
+3.  Sync the latest changes from the asdotdev upstream `master` branch to your `master` fork branch:
+    Update your copy of the asdotdev upstream repository:
     ```
     git fetch upstream
     ```
-    Hard reset your `master` branch with the portfolio `master`:
+    Hard reset your `master` branch with the asdotdev `master`:
     ```
     git reset --hard upstream/master
     ```
