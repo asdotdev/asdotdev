@@ -4,7 +4,6 @@
 
 I am a software developer focusing on **web and hybrid mobile development**. I am exploring **open-source development** and prefers **remote work**. I create products using **JavaScript** and **TypeScript**, with a focus on developing intuitive experiences that continuously improve based on metrics.
 
-
 Visit my static personal portfolio at [amitabhsahu.dev](https://amitabhsahu.dev/), which was built with **Astro** and **Decap-CMS**.
 
 [![as.dev](https://github.com/user-attachments/assets/e6bbb5d4-b3de-4f02-adf8-abef243c52e4)](https://amitabhsahu.dev/)

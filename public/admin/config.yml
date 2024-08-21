@@ -7,6 +7,9 @@ backend:
 media_folder: "public/assets"
 public_folder: "assets"
 
+site_url: https://amitabhsahu.dev
+display_url: https://amitabhsahu.dev
+
 # These lines should *not* be indented
 collections:
   - label: "Content"
