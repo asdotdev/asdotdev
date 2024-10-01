@@ -17,6 +17,13 @@
   ],
   "projects": [
     {
+      "side": "Sept 2024",
+      "title": "Password Generator - CLI App",
+      "desc": "A simple utility tool to generate passwords in the terminal.",
+      "stack": "Tech Stack: TypeScript • NodeJS • CommanderJS",
+      "link": "https://www.npmjs.com/package/@asdotdev/password-generator"
+    },
+    {
       "side": "Aug 2024",
       "title": "JS Snippets - Cross-Browser Extension",
       "desc": "Developed a cross-browser extension that can save JavaScript code snippets for future reference and reuse.",
@@ -36,13 +43,6 @@
       "title": "EditTube - Streamline YouTube Workflow",
       "desc": "Teamed up with developers for a hackathon to create an app that solves YouTube's problem of downloading videos for upload by providing a view and upload option within the platform.",
       "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
-    },
-    {
-      "link": "https://paper-note.web.app",
-      "side": "Oct 2021",
-      "title": "Paper Note - Note Taking App",
-      "desc": "Created a user-friendly progressive web app for easy note-taking, accessible both online and offline.",
-      "stack": "ReactJS • Firebase • MaterialUI"
     }
   ],
   "links": [
