@@ -19,8 +19,8 @@
     {
       "side": "Sept 2024",
       "title": "Password Generator - CLI App",
-      "desc": "A simple utility tool to generate passwords in the terminal.",
-      "stack": "Tech Stack: TypeScript • NodeJS • CommanderJS",
+      "desc": "I've published a simple utility tool to generate passwords in the terminal.",
+      "stack": "TypeScript • NodeJS • CommanderJS",
       "link": "https://www.npmjs.com/package/@asdotdev/password-generator"
     },
     {
