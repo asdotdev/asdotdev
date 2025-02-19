@@ -17,11 +17,11 @@
   ],
   "projects": [
     {
-      "side": "Sept 2024",
-      "title": "Password Generator - CLI App",
-      "desc": "I've published a simple utility tool to generate passwords in the terminal.",
-      "stack": "TypeScript • NodeJS • CommanderJS",
-      "link": "https://www.npmjs.com/package/@asdotdev/password-generator"
+      "link": "https://github.com/asdotdev/creative-clicks",
+      "side": "Fab 2025",
+      "title": "Creative Clicks - Mobile App ",
+      "desc": "Built a hybrid mobile app that allows users to capture photos, draw on them, add stickers, and download the edited images.",
+      "stack": "TypeScript • React Native • Expo"
     },
     {
       "side": "Fab 2025",
@@ -31,18 +31,18 @@
       "link": "https://polling-app-teal-one.vercel.app/"
     },
     {
+      "side": "Sept 2024",
+      "title": "Password Generator - CLI App",
+      "desc": "I've published a simple utility tool to generate passwords in the terminal.",
+      "stack": "TypeScript • NodeJS • CommanderJS",
+      "link": "https://www.npmjs.com/package/@asdotdev/password-generator"
+    },
+    {
       "link": "https://www.npmjs.com/package/@asdotdev/react-list",
       "side": "May 2024",
       "title": "React List - React UI Package",
       "desc": "Build and maintain a React package of a scrollable interface to render infinite lists with type support, including horizontal, inverted, and section options.",
       "stack": "TypeScript • ReactJS • Rollup • CSS"
-    },
-    {
-      "link": "https://edittube.vercel.app",
-      "side": "Nov 2023",
-      "title": "EditTube - Streamline YouTube Workflow",
-      "desc": "Teamed up with developers for a hackathon to create an app that solves YouTube's problem of downloading videos for upload by providing a view and upload option within the platform.",
-      "stack": "MongoDB • ExpressJS • ReactJS • NodeJS"
     }
   ],
   "links": [
