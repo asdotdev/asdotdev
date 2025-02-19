@@ -24,11 +24,11 @@
       "link": "https://www.npmjs.com/package/@asdotdev/password-generator"
     },
     {
-      "side": "Aug 2024",
-      "title": "JS Snippets - Cross-Browser Extension",
-      "desc": "Developed a cross-browser extension that can save JavaScript code snippets for future reference and reuse.",
-      "stack": "TypeScript • ReactJS • Webpack • TailwindCSS",
-      "link": "https://github.com/asdotdev/jssnippets"
+      "side": "Fab 2025",
+      "title": "Polling App - Full-Stack App ",
+      "desc": "Published a full-stack polling app where users can create, delete and vote polls, and view results in real-time with auto-refresh every 5 seconds.",
+      "stack": "TypeScript • Next.js • TailwindCSS • MongoDB • Mongoose",
+      "link": "https://polling-app-teal-one.vercel.app/"
     },
     {
       "link": "https://www.npmjs.com/package/@asdotdev/react-list",
